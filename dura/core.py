@@ -1,6 +1,6 @@
 import re
 
-UNITS = {"s": 1, "m": 60, "h": 1800, "d": 86400, "w": 604800}
+UNITS = {"s": 1, "m": 60, "h": 3600, "d": 86400, "w": 604800}
 ORDER = ["w", "d", "h", "m", "s"]
 TOKEN = re.compile(r"(\d+)([smhdw])")
 

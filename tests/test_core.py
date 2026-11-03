@@ -19,3 +19,7 @@ def test_rejects_garbage():
 
 def test_format_minutes():
     assert format(150) == "2m30s"
+
+
+def test_hours_and_minutes():
+    assert parse("1h30m") == 5400
